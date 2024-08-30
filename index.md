@@ -2,7 +2,8 @@
 layout: base
 title: Student Home 
 description: Home Page
+image: /images/mario_animation.png
 hide: true
 ---
 
-My journey starts here.
+Hi I'm Avika, and my journey starts here.
