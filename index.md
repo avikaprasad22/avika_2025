@@ -6,4 +6,4 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-Hi I'm Avika, and my journey starts here.
+<h3> Hi I'm Avika, and my journey starts here. </h3>
