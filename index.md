@@ -6,7 +6,15 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-<h3> Hi I'm Avika, and my journey starts here. </h3>
+<h3> Hi I'm Avika, and my journey in computer science princples journey starts here. </h3>
+<span class="container">
+<img src="comp.gif" width="200" height="200"/>
+<img src="duck.gif" width="150" height="150"/>
+<p> Press right-arrow to make Mario move!<p>
+<br>
+<p> Press left-arrow to make him stop! </p>
+<br>
+<p> Switch tabs and come back for a surprise! </p>
 
 <!-- Liquid:  statements -->
 
