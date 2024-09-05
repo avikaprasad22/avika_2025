@@ -12,4 +12,7 @@ permalink: /about/
 <a href="https://www.linkedin.com/in/avika-prasad-157b332a6/" target="_blank">
 <button>My LinkedIn</button>
 </a>
+<span>
+<h2> <strong> Ancestry: </strong> Both of my parents are Indian, north Indian specifically, so I am Indian! </h2>
+<img src=""> 
 </center>
