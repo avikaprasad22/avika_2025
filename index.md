@@ -11,14 +11,14 @@ hide: true
 <img src="{{site.baseurl}}/images/comp.gif" width="300" height="300"/>
 <img src="{{site.baseurl}}/images/duck.gif" width="250" height="250"/>
 <div>
-<br>
-<p> Press right-arrow to make Mario move!<p>
-<br>
-<p> Press left-arrow to make him stop! </p>
-<br>
-<p> Press the up-arrow and right-arrow together to make him jog! </p>
-<br>
-<p> Switch tabs and come back for a surprise! </p>
+
+<h3 style="font-family: Courier New"> <strong> Press right-arrow to make Mario move! </strong></h3>
+
+<h3 style="font-family: Courier New"> <strong>Press left-arrow to make him stop and rest!</strong></h3>
+
+<h3 style="font-family: Courier New"> <strong>Press the up-arrow and right-arrow together to make him jog!</strong></h3>
+
+<h3 style="font-family: Courier New"> <strong>Switch tabs and come back for a surprise!</strong></h3>
 
 
 <!-- Liquid:  statements -->
@@ -202,3 +202,5 @@ hide: true
   });
 
 </script>
+
+
