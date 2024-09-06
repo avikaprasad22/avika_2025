@@ -1,20 +1,25 @@
 ---
 layout: base
-title: Student Home 
+title: Avika's Homepage 
 description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
-
-<h3> Hi I'm Avika, and my journey in computer science princples journey starts here. </h3>
+<center>
+<h3 style="font-family: Courier New"> <strong> Hi I'm Avika, and my journey in computer science princples journey starts here. </strong> </h3>
 <span class="container">
-<img src="comp.gif" width="200" height="200"/>
-<img src="duck.gif" width="150" height="150"/>
+<img src="{{site.baseurl}}/images/comp.gif" width="300" height="300"/>
+<img src="{{site.baseurl}}/images/duck.gif" width="250" height="250"/>
+<div>
+<br>
 <p> Press right-arrow to make Mario move!<p>
 <br>
 <p> Press left-arrow to make him stop! </p>
 <br>
+<p> Press the up-arrow and right-arrow together to make him jog! </p>
+<br>
 <p> Switch tabs and come back for a surprise! </p>
+
 
 <!-- Liquid:  statements -->
 
