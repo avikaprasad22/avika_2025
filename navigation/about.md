@@ -25,14 +25,13 @@ permalink: /about/
 
 <h3 style="font-family: Courier New"> <strong>I went to Oak Valley Middle School and now I will graduate Del Norte in 2027.</strong> </h3>
 
-<div>
-<a href="http://127.0.0.1:4100/avika_2025/">
-<button style="background-color: #4CAF50; color: white; padding: 10px"> Back To Homepage </button> </a>
-</div>
+<br>
 
 <comment>
-Flags are made using Wikipedia images
+Programming languages are made using Wikipedia images
 </comment>
+
+<br>
 
 <style>
     /* Style looks pretty compact, 
@@ -81,11 +80,12 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
-    ];
+    {"flag": "6/6a/Python_logo_2014.svg", "greeting": "Python", "description": "I've learned"},
+    {"flag": "1/18/Java_Logo.svg", "greeting": "Java", "description": "I know a bit of"},
+    {"flag": "3/32/HTML5_logo_and_wordmark.svg", "greeting": "HTML", "description": "I'm learning"},
+    {"flag": "6/62/CSS3_logo.svg", "greeting": "CSS", "description": "I'm learning"},
+    {"flag": "9/99/JavaScript_logo_2.svg", "greeting": "JavaScript", "description": "I want to learn"}
+];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -117,3 +117,8 @@ Flags are made using Wikipedia images
         container.appendChild(gridItem);
     }
 </script>
+
+<div>
+<a href="http://127.0.0.1:4100/avika_2025/">
+<button style="background-color: #4CAF50; color: white; padding: 10px"> Back To Homepage </button> </a>
+</div>
