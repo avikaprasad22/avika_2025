@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Avika's Homepage 
-description: Home Page
+description: 😃🔥💃🏻✨‼️
 image: /images/mario_animation.png
 hide: true
 ---
@@ -20,6 +20,20 @@ hide: true
 
 <h3 style="font-family: Courier New"> <strong>Switch tabs and come back for a surprise!</strong></h3>
 
+<table>
+  <tr>
+    <th>Github Pages Hacks</th>
+    <th>Notebook</th>
+  </tr>
+  <tr>
+    <td>Planning Document</td>
+    <td> <a href="/nav/JS"> Notebook Link </a> </td> 
+  </tr>
+  <tr>
+    <td>Javascript Cell</td>
+    <td> <a href="/Users/avikaprasad/nighthawk/avika_2025/_notebooks/C-github-pages/js_cell.ipynb"> JS Cell Link </a> </td> 
+  </tr>
+</table>
 
 <!-- Liquid:  statements -->
 

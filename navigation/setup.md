@@ -9,6 +9,11 @@ permalink: /setup/
 <a href="https://github.com/avikaprasad22/avika_2025/issues/1" target="_blank">
 <button style="background-color: #4CAF50; color: white; padding: 10px"> rm -rf issue </button> </a>
 
+<span>
+<img src="{{site.baseurl}}/images/team pic.png" width="400" height="300">
+<img src="{{site.baseurl}}/images/rm -rf instructions.png" width="400" height="300">
+</span>
+
 ## Problems
 <h3 style="font-family: Courier New"> <strong> A problem that I faced was not being able to commit code changes to my repository that I opened in VSCode. I wasn't sure why I was not connected to the very repository I cloned so I asked some students for help. By utilizing some soft skills, I was able to figure out that github didn't have access to my repository due to some security aspect. I typed in the command <code> git config --global --add safe.directory/nighthawk/avika_2025</code> This ended up giving me version control and now I can commit!</strong> </h3>
 

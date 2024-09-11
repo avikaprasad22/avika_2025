@@ -17,7 +17,7 @@ permalink: /about/
 <span>
 <img src="{{site.baseurl}}/images/indian flag.gif" width="200" height="150"> 
 <img src="{{site.baseurl}}/images/avika_in_hindi.png" alt="my name in hindi script!">
-<h3 style="font-family: Courier New"> <strong> My name in Hindi!  👆🏻 😃</strong> </h3>
+<h3 style="font-family: Courier New"> <strong> My name in Hindi!  👆🏻 😃 </strong> </h3>
 </span>
 
 <h3 style="font-family: Courier New"> <strong>  I was born in India and I moved to the US the summer before first grade.</strong> </h3>
@@ -122,3 +122,13 @@ Programming languages are made using Wikipedia images
 <a href="http://127.0.0.1:4100/avika_2025/">
 <button style="background-color: #4CAF50; color: white; padding: 10px"> Back To Homepage </button> </a>
 </div>
+
+<!-- Adding Changing Background Color -->
+<script>
+  let colors = ["#FFFAF0", "#FFFACD", "#E6E6FA", "#F5FFFA"];
+  let currentColor = 0;
+  setInterval(function() {
+    document.body.style.backgroundColor = colors[currentColor];
+    currentColor = (currentColor + 1) % colors.length;
+  }, 5000); // Change color every 5 seconds
+</script>
