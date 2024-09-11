@@ -26,12 +26,12 @@ hide: true
     <th>Notebook</th>
   </tr>
   <tr>
-    <td>Planning Document</td>
-    <td> <a href="/nav/JS"> Notebook Link </a> </td> 
+    <td>Emoji</td>
+    <td> <a href="http://127.0.0.1:4100/avika_2025/emoji/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
   </tr>
   <tr>
     <td>Javascript Cell</td>
-    <td> <a href="/Users/avikaprasad/nighthawk/avika_2025/_notebooks/C-github-pages/js_cell.ipynb"> JS Cell Link </a> </td> 
+    <td> <a href="http://127.0.0.1:4100/avika_2025/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> JS Game Notebook </button> </a> </td> 
   </tr>
 </table>
 
