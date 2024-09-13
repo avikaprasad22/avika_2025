@@ -13,6 +13,9 @@ permalink: /about/
 <a href="https://www.linkedin.com/in/avika-prasad-157b332a6/" target="_blank">
 <button style="background-color: #017371; color: white; padding: 10px">My LinkedIn</button>
 </a>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3KSzrry7pHZ7qcpvASByYU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 <h2> <strong> Ancestry: I am Indian and I come from a family of generational hindi-speakers. </strong> </h2>
 <span>
 <img src="{{site.baseurl}}/images/indian flag.gif" width="200" height="150"> 
@@ -41,6 +44,7 @@ Programming languages are made using Wikipedia images
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
         gap: 10px;
+        align-items: center;
     }
     .grid-item {
         text-align: center;
@@ -80,11 +84,10 @@ Programming languages are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-    {"flag": "6/6a/Python_logo_2014.svg", "greeting": "Python", "description": "I've learned"},
-    {"flag": "1/18/Java_Logo.svg", "greeting": "Java", "description": "I know a bit of"},
-    {"flag": "3/32/HTML5_logo_and_wordmark.svg", "greeting": "HTML", "description": "I'm learning"},
+    {"flag": "c/c3/Python-logo-notext.svg", "greeting": "Python", "description": "I've learned"},
+    {"flag": "3/38/HTML5_Badge.svg", "greeting": "HTML", "description": "I'm learning"},
     {"flag": "6/62/CSS3_logo.svg", "greeting": "CSS", "description": "I'm learning"},
-    {"flag": "9/99/JavaScript_logo_2.svg", "greeting": "JavaScript", "description": "I want to learn"}
+    {"flag": "9/99/Unofficial_JavaScript_logo_2.svg", "greeting": "JavaScript", "description": "I want to learn"}
 ];
 
     // 3a. Consider how to update style count for size of container

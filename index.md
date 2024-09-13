@@ -27,11 +27,15 @@ hide: true
   </tr>
   <tr>
     <td>Emoji</td>
-    <td> <a href="http://127.0.0.1:4100/avika_2025/emoji/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/emoji/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
   </tr>
   <tr>
     <td>Javascript Cell</td>
-    <td> <a href="http://127.0.0.1:4100/avika_2025/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> JS Game Notebook </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> JS Game Notebook </button> </a> </td> 
+  </tr>
+  <tr>
+    <td>Snake Game</td>
+    <td> <a href="{{site.baseurl}}/snake/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Snake Game </button> </a> </td> 
   </tr>
 </table>
 
