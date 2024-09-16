@@ -1,9 +1,10 @@
 ---
-layout: base
+layout: page
 title: Avika's Homepage 
 description: 😃🔥💃🏻✨‼️
 image: /images/mario_animation.png
 hide: true
+permalink: /home/
 ---
 <center>
 <h3 style="font-family: Courier New"> <strong> Hi I'm Avika, and my journey in computer science princples journey starts here. </strong> </h3>
@@ -30,8 +31,8 @@ hide: true
     <td> <a href="{{site.baseurl}}/emoji/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
   </tr>
   <tr>
-    <td>Javascript Cell</td>
-    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> JS Game Notebook </button> </a> </td> 
+    <td>Notebook</td>
+    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Future Plans </button> </a> </td> 
   </tr>
   <tr>
     <td>Snake Game</td>
