@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: base
 title: Avika's Homepage 
 description: 😃🔥💃🏻✨‼️
 image: /images/mario_animation.png
 hide: true
-permalink: /home/
 ---
 <center>
 <h3 style="font-family: Courier New"> <strong> Hi I'm Avika, and my journey in computer science princples journey starts here. </strong> </h3>
