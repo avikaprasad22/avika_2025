@@ -23,19 +23,20 @@ hide: true
 <table>
   <tr>
     <th>Github Pages Hacks</th>
-    <th>Notebook</th>
+    <th>Games</th>
   </tr>
   <tr>
-    <td>Emoji</td>
-    <td> <a href="{{site.baseurl}}/emoji/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/emoji/"> <button style="background-color: #F88379; color: white; padding: 10px"> Emoji Notebook </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/snake/"> <button style="background-color: #F88379; color: white; padding: 10px"> Snake Game </button> </a> </td>
   </tr>
   <tr>
-    <td>Notebook</td>
-    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Future Plans </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #F88379; color: white; padding: 10px"> Future Plans </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/cookie/"> <button style="background-color: #F88379; color: white; padding: 10px"> Cookie Clicker </button> </a> </td>
   </tr>
   <tr>
-    <td>Snake Game</td>
-    <td> <a href="{{site.baseurl}}/snake/"> <button style="background-color: #4CAF50; color: white; padding: 10px"> Snake Game </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/music/"> <button style="background-color: #F88379; color: white; padding: 10px"> Music Blog </button> </a> </td> 
+    <td>
+    <a href="{{site.baseurl}}/calculator/"> <button style="background-color: #F88379; color: white; padding: 10px"> Calculator </button> </a> </td>
   </tr>
 </table>
 

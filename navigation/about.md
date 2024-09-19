@@ -14,7 +14,6 @@ permalink: /about/
 <button style="background-color: #017371; color: white; padding: 10px">My LinkedIn</button>
 </a>
 <br>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3KSzrry7pHZ7qcpvASByYU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <h2> <strong> Ancestry: I am Indian and I come from a family of generational hindi-speakers. </strong> </h2>
 <span>
@@ -123,7 +122,7 @@ Programming languages are made using Wikipedia images
 
 <div>
 <a href="http://127.0.0.1:4100/avika_2025/">
-<button style="background-color: #4CAF50; color: white; padding: 10px"> Back To Homepage </button> </a>
+<button style="background-color: #F88379; color: white; padding: 10px"> Back To Homepage </button> </a>
 </div>
 
 <!-- Adding Changing Background Color -->
