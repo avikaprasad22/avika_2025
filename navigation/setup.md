@@ -17,5 +17,8 @@ permalink: /setup/
 ## Problems
 <h3 style="font-family: Courier New"> <strong> A problem that I faced was not being able to commit code changes to my repository that I opened in VSCode. I wasn't sure why I was not connected to the very repository I cloned so I asked some students for help. By utilizing some soft skills, I was able to figure out that github didn't have access to my repository due to some security aspect. I typed in the command <code> git config --global --add safe.directory/nighthawk/avika_2025</code> This ended up giving me version control and now I can commit!</strong> </h3>
 
+<h3 style="font-family: Courier New"> <strong> The struggle was real lol 😭😂 </strong> </h3>
+<img src="{{site.baseurl}}/images/make_struggle.png">
 <a href="http://127.0.0.1:4100/avika_2025/">
+<br>
 <button style="background-color: #F88379; color: white; padding: 10px"> Back To Homepage </button> </a>
