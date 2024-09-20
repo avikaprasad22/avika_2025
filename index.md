@@ -30,7 +30,7 @@ hide: true
     <td> <a href="{{site.baseurl}}/snake/"> <button style="background-color: #F88379; color: white; padding: 10px"> Snake Game </button> </a> </td>
   </tr>
   <tr>
-    <td> <a href="{{site.baseurl}}/jshello/"> <button style="background-color: #F88379; color: white; padding: 10px"> JS Hello </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/frontend/"> <button style="background-color: #F88379; color: white; padding: 10px"> Frontend </button> </a> </td> 
     <td> <a href="{{site.baseurl}}/cookie/"> <button style="background-color: #F88379; color: white; padding: 10px"> Cookie Clicker </button> </a> </td>
   </tr>
   <tr>
