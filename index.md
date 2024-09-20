@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Avika's Homepage 
+title: ✨ Avika's Homepage ✨
 description: 😃🔥💃🏻✨‼️
 image: /images/mario_animation.png
 hide: true
@@ -30,7 +30,7 @@ hide: true
     <td> <a href="{{site.baseurl}}/snake/"> <button style="background-color: #F88379; color: white; padding: 10px"> Snake Game </button> </a> </td>
   </tr>
   <tr>
-    <td> <a href="{{site.baseurl}}/jsgame/"> <button style="background-color: #F88379; color: white; padding: 10px"> Future Plans </button> </a> </td> 
+    <td> <a href="{{site.baseurl}}/jshello/"> <button style="background-color: #F88379; color: white; padding: 10px"> JS Hello </button> </a> </td> 
     <td> <a href="{{site.baseurl}}/cookie/"> <button style="background-color: #F88379; color: white; padding: 10px"> Cookie Clicker </button> </a> </td>
   </tr>
   <tr>

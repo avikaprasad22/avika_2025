@@ -125,6 +125,15 @@ Programming languages are made using Wikipedia images
 <button style="background-color: #F88379; color: white; padding: 10px"> Back To Homepage </button> </a>
 </div>
 
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script> 
+
 <!-- Adding Changing Background Color -->
 <script>
   let colors = ["#FFFAF0", "#FFFACD", "#E6E6FA", "#F5FFFA"];
