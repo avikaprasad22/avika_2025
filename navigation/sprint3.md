@@ -6,7 +6,7 @@ permalink: /mc+sprint3/
 ## Accomplishments of Sprint 3
 Throughout Sprint 3, my group and I worked on establishing DNHS Cafe, a branch of our period's overall social media theme, Share and Care. DNHS Cafe is a study room created for all Del Norte High School students to chat with each other and clear doubts about any assignments. The more you chat and help out your peers, the more D'neros you earn which you can use to purchase coffee! 
 
-One of my big accomplishments for Sprint 3 was designing the frontend of the cafe and the homepage. I feel that I strengthened those frontend skills from sprint 1 and 2. I was able to implement a function which bought the coffees and decreased the D'Nero balance through the click on a button. I developed a user-friendly UI. Ihave also started to understand the work of databases which connects frontend and backened and want to deepen my understanding of that more as I figure out the backened for our project.
+One of my big accomplishments for Sprint 3 was learning about backend while strengthening the frontend skills from sprint 1 and 2. In JS was able to implement a function which bought the coffees and decreased the D'Nero balance through the click on a button. I developed a user-friendly UI. I have also started to understand the work of databases which connects frontend and backened and want to deepen my understanding of that more as I figure out the backened for our project.
 
 
 ## 2018 AP CSP MC - Test Corrections
@@ -56,6 +56,16 @@ Through this collegeboard MC, I learned many new concepts such as internet proto
 
 ## What I need to improve on
 After taking the collegeboard MC, I need to improve on the time I spend onf each question, and therefore I have to get faster the questions that require you to test out the logic. These were like moving the robot kind of questions. They had tricky things hidden in the code that I sometimes missed as I was trying to not take too long on any question.
+
+## Stats
+<img src="{{site.baseurl}}/images/stat1.png">
+<img src="{{site.baseurl}}/images/stat2.png">
+
+Some of the sections I need to improve on are developing algorithms (25%), conditionals (50%), variables and assignments (67%), iteration (50%), and extracting information from data (71%).
+
+<br>
+
+Some that I did really well on are lists (100%), digital divide (100%), legal and ethical concerns (100%), undecidable problems (100%), etc.
 
 <script src="https://utteranc.es/client.js"
         repo="nighthawkcoders/portfolio_2025"
