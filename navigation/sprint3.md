@@ -44,4 +44,13 @@ Through this collegeboard MC, I learned many new concepts such as internet proto
 ## What I need to improve on
 After taking the collegeboard MC, I need to improve on the time I spend onf each question, and therefore I have to get faster the questions that require you to test out the logic. These were like moving the robot kind of questions. They had tricky things hidden in the code that I sometimes missed as I was trying to not take too long on any question.
 
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 
