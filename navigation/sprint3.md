@@ -13,31 +13,39 @@ One of my big accomplishments for Sprint 3 was designing the frontend of the caf
 
 Here are some questions from the MC that I reflected back on:
 
+## Question 1
 <img src="{{site.baseurl}}/images/cbq1.png">
-<b>Mistake:</b> For the missing code, we need to assign "second" the value of first, therefore, assigning "temp" to "second" does no gopd.
+<b>Mistake:</b> For the missing code, we need to assign "second" the value of first, therefore, assigning "temp" to "second" does no good.
 <br>
 <b>Correct Answer:</b> The correct answer is B as it assigns "temp", which is set to the inital value of "first" is assigned to second. This successfully swaps the values of "first" and "second".
 
 <br>
 
+## Question 11
 <img src="{{site.baseurl}}/images/cbq2.png">
 <b>Mistake:</b> The answer choice I selected, gives an equal chance of selection to all three colors even though red is 4x larger.
 <br>
 <b>Correct Answer:</b> The correct answer is D as the code segment selects "Yellow" one-sixth of the time, "Blue" one-sixth of the time, and "Red" the remaining two-thirds of the time.
 
 <br>
+
+## Question 12
 <img src="{{site.baseurl}}/images/cbq3.png">
 <b>Mistake:</b> The answer choice I selected, would be proper for 11 years (1 year in the future), but the questions asks for 2 years in the future, so the value at 12 years.
 <br>
 <b>Correct Answer:</b> The correct answer is B as the 31.2 million matches the approximation for 12 years based on the way the rate has been increasing over the years in the table.
 
 <br>
+
+## Question 23
 <img src="{{site.baseurl}}/images/cbq4.png">
 <b>Mistake:</b> The answer choice I selected, proposes two ways to get from P to S. For example, P to R to S and P to Q to S. This makes redundancy possible.
 <br>
 <b>Correct Answer:</b> The correct answer is B as redundant routing is impossible if there is only one possible path from one device to another. There is only one possible path from P to S (P to R to Q to S).
 
 <br>
+
+## Question 30
 <img src="{{site.baseurl}}/images/cbq5.png">
 <b>Mistake:</b> In the answer choice I selected, it approximation assumes that the Analysis procedure is called only once.
 <br>
