@@ -1,77 +1,110 @@
 ---
-layout: page
+layout: base
 title: Snake
 permalink: /snake/
 ---
 
 <style>
 
-    body{
-    }
-    .wrap{
-        margin-left: auto;
-        margin-right: auto;
-    }
+   body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+}
 
-    canvas{
-        display: none;
-        border-style: solid;
-        border-width: 10px;
-        border-color: #FFFFFF;
-    }
-    canvas:focus{
-        outline: none;
-    }
+.wrap {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
 
-    /* All screens style */
-    #gameover p, #setting p, #menu p{
-        font-size: 20px;
-    }
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 10px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
 
-    #gameover a, #setting a, #menu a{
-        font-size: 30px;
-        display: block;
-    }
+canvas:focus {
+    outline: none;
+}
 
-    #gameover a:hover, #setting a:hover, #menu a:hover{
-        cursor: pointer;
-    }
+/* Text styles for menus */
+#gameover p, #setting p, #menu p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
 
-    #gameover a:hover::before, #setting a:hover::before, #menu a:hover::before{
-        content: ">";
-        margin-right: 10px;
-    }
+#gameover a, #setting a, #menu a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
 
-    #menu{
-        display: block;
-    }
+#gameover a:hover, #setting a:hover, #menu a:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
 
-    #gameover{
-        display: none;
-    }
+#gameover a:hover::before, #setting a:hover::before, #menu a:hover::before {
+    content: ">";
+    margin-right: 10px;
+}
 
-    #setting{
-        display: none;
-    }
+/* Layout for menus */
+#menu, #gameover, #setting {
+    display: none;
+}
 
-    #setting input{
-        display:none;
-    }
+#menu {
+    display: block;
+}
 
-    #setting label{
-        cursor: pointer;
-    }
+#setting input {
+    display: none;
+}
 
-    #setting input:checked + label{
-        background-color: #FFF;
-        color: #000;
-    }
+#setting label {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease, color 0.3s;
+}
+
+#setting input:checked + label {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
 </style>
 
-
+<h2>Snake</h2>
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
-        <p class="fs-4">Snake score: <span id="score_value">0</span></p>
+        <p class="fs-4">Score: <span id="score_value">0</span></p>
     </header>
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
@@ -224,6 +257,15 @@ permalink: /snake/
                 case 1: _x++; break;
                 case 2: _y++; break;
                 case 3: _x--; break;
+            
+            // Paint snake
+        for (let i = 0; i < snake.length; i++) {
+            activeDot(snake[i].x, snake[i].y);
+            }
+
+// Paint food
+activeDot(food.x, food.y, true);
+
             }
             snake.pop(); // tail is removed
             snake.unshift({x: _x, y: _y}); // head is new in new position/orientation
@@ -327,10 +369,36 @@ permalink: /snake/
         }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
-        let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
-            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
-        }
+        /* Dot for Food or Snake part */
+let activeDot = function(x, y, isFood = false) {
+    // Define gradient for snake or food
+    let gradient = ctx.createRadialGradient(
+        x * BLOCK + BLOCK / 2,
+        y * BLOCK + BLOCK / 2,
+        BLOCK / 4,
+        x * BLOCK + BLOCK / 2,
+        y * BLOCK + BLOCK / 2,
+        BLOCK
+    );
+
+    if (isFood) {
+        gradient.addColorStop(0, "#ffcc00");
+        gradient.addColorStop(1, "#ff6600");
+    } else {
+        gradient.addColorStop(0, "#6a11cb");
+        gradient.addColorStop(1, "#2575fc");
+    }
+
+    ctx.fillStyle = gradient;
+    ctx.shadowBlur = 10;
+    ctx.shadowColor = isFood ? "#ff6600" : "#2575fc";
+
+    // Draw circle for the segment
+    ctx.beginPath();
+    ctx.arc(x * BLOCK + BLOCK / 2, y * BLOCK + BLOCK / 2, BLOCK / 2.5, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.closePath();
+};
         /* Random food placement */
         /////////////////////////////////////////////////////////////
         let addFood = function(){
@@ -363,8 +431,8 @@ permalink: /snake/
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
-            if(wall === 0){screen_snake.style.borderColor = "#F88379";}
-            if(wall === 1){screen_snake.style.borderColor = "#F88379";}
+            if(wall === 0){screen_snake.style.borderColor = "#606060";}
+            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
         }
     })();
 </script>
