@@ -45,7 +45,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
        console.error('Error fetching cart items:', error);
      });
  }
-</code>
+
 
 <h3> <b>  CRUD Methods on Postman:  </b> </h3>
 
@@ -67,7 +67,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
             "total_items": total_items,
             "total_price": round(total_price, 2)
     })
-</code>
+
 
 <h4> <b>  POST:  </b> </h4>
 <img src="{{site.baseurl}}/images/post.png">
@@ -104,7 +104,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
     # Save changes to the database
     db.session.commit()
     return jsonify({"message": "Item added to cart successfully."}), 201
-</code>
+
 
 <h4> <b>  UPDATE:  </b> </h4>
 <img src="{{site.baseurl}}/images/update.png">
@@ -136,7 +136,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
     item.quantity = data['quantity']
     db.session.commit()
     return jsonify({"message": "Item quantity updated successfully."})
-</code>
+
 
 <h4> <b>  DELETE (can do individual and all):  </b> </h4>
 <h4> <b>  Individual:  </b> </h4>
@@ -158,7 +158,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
     db.session.delete(item)
     db.session.commit()
     return jsonify({"message": "Item removed from cart successfully."})
-</code>
+
 
 <h4> <b>  All:  </b> </h4>
 <img src="{{site.baseurl}}/images/delete.png">
@@ -175,7 +175,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
         CartItem.query.delete()
         db.session.commit()
         return jsonify({"message": "Cart cleared successfully."})
-</code>
+
 
 <h3> <b>  Lists, Dictionaries, and Database  </b> </h3>
 
@@ -209,7 +209,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
         console.error('Error fetching cart items:', error);
       });
   }
-</code>
+
 
 ✅ Fetch JSON from API
 <br>
@@ -236,7 +236,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
         "total_items": total_items,
         "total_price": round(total_price, 2)
     })
-</code>
+
 
 ✅ Here, <b>cart_items</b> is a python <b>list</b> of <b>dictionaries</b>
 <br>
@@ -345,7 +345,7 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
         CartItem.query.delete()
         db.session.commit()
         return jsonify({"message": "Cart cleared successfully."})
-</code>
+
 
 ✅ The API is defined using <b>Flask’s Blueprint</b>
 <br>
@@ -377,7 +377,6 @@ const pythonURI = 'http://127.0.0.1:8887/api';
       alert('Please fill out all fields before adding the book to the cart.');
     }
   }
-</code>
 
 <h4> <b>Call/Request (fetching an endpoint) </b> </h4>
 
