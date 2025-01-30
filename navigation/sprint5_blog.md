@@ -353,6 +353,8 @@ const pythonURI = 'http://127.0.0.1:8887/api'; // Replace with your actual API U
 <br>
 ✅ <b>Iteration:</b> Uses list comprehensions (<code>sum(), [item.read() for item in items])</code> to iterate over items.
 <br>
+✅ <b>Selection:</b> <code> CartItem.query.all()</code> and <code> CartItem.query.get(item_id)</code> retreive specific data from the database.
+<br>
 ✅ Formats and returns data as <b>JSON</b> using <code>josonify()</code>
 
 <h3> <b> Call To Algorithm Request  </b> </h3>
