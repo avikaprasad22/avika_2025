@@ -20,6 +20,10 @@ It uses <code>item_id</code> as a parameter to fetch a specific cart item, affec
 <br>
 - <b>Iteration:</b> Looping through the cart items to find the item to delete.
 
+Another prominent example of iteration using a for loop:
+
+<img src="{{site.baseurl}}/images/for_loop_ex.png">
+
 ## A code segment where the procedure is being called in my program:
 <img src="{{site.baseurl}}/images/ppr2.png">
 
@@ -41,4 +45,3 @@ First, using the items defined in the list above, <code>total_items = sum(item.q
 Second, using the same list, it calculates the total price: <code>total_price = sum(item.price * item.quantity for item in items)</code>
 
 Here, <code>CartItem.query.all()</code> retrieves all cart items from the database, and the list comprehension <code>[item.read() for item in items]</code> stores each item's data (processed through the read() method) in a list before returning it as a JSON response.
-
