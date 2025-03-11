@@ -152,4 +152,19 @@ After taking the collegeboard MC, I need to improve on the time I spend on each 
 
 <img src="{{site.baseurl}}/images/grades.png">
 
-For our website, I had a strong start on the frontend, but I was lacking integration with backend which is reflected in the 2nd plan, 1st code grade. After accomplishing a cohesive frotend, I shifted my focus a lot more toward backend First, I accomplished CRUD functionalities (GET, POST, DELTE, and UPDATE). After many successful entries through postman, I was able to integrate the CRUD with a UI and some javascript. Greater advancements were made to the UI more a more user-friendly interpreation of a shopping cart, and I implemnted authentication, which prevented anyone of the site from being able to access cart items or add/remoeve them. There is always more improvements to make, but through my progress on my feature, my collborative efforts, and learning from each live review and implementing the lessons learned, I beleive that I should get an overall grade of <b>9.2 out of 10 on this final</b>. 
+| Category | Grade | Points | Explanation |
+|---|---|---|---|
+| 5 things in 12 weeks | 5 | 5 | I believe I earned a full score in this category because of my hard work over the course of the trimester. Not only did I learn a lot over the course of these weeks about APIs, frontend to backend integration, collaboration, and deployment, I also achieved a significant amount of what I set out to do, set and met reasonable goals, and asked for help when needed. |
+| Full Stack Project Demo (CPT Requirements, N@tM) | 1.95 | 2 | I know my code very well and can explain it using proper vocabulary, so I can give an in-depth demo of my feature. My code also fulfills all of the CPT requirements thoroughly and in a solid manner, often fulfilling requirements multiple times over. I  find that my code demonstrates a solid knowledge of CollegeBoard’s cirriculum. My N@tM experience was also very positive, and I was able to talk to several people about my project and receive feedback from them. However, I find there is always room for improvement, and if I were to do this project over, I would find more and more inventive ways to implement CB requirements. |
+| Project Feature blog Write-up | 1 | 1 | My write-up is thorough and explains both how my feature fulfills CPT requirements and is useful to my group’s project overall. |
+| MCQ | 0.95 | 1 | Although I did not earn a full score in my MCQ, I performed better than my last MCQ test and overall felt like I understood more. I also took the time afterward to take a look at my analytics and take note on what questions I missed, and I wrote a detailed reflection afterward. |
+| Total | 8.9 | 9 | |
+
+
+For our website, I had a strong start on the frontend, but I was lacking integration with backend which is reflected in the 2nd plan, 1st code grade. After accomplishing a cohesive frotend, I shifted my focus a lot more toward backend First, I accomplished CRUD functionalities (GET, POST, DELTE, and UPDATE). After many successful entries through postman, I was able to integrate the CRUD with a UI and some javascript. Greater advancements were made to the UI more a more user-friendly interpreation of a shopping cart, and I implemnted authentication, which prevented anyone of the site from being able to access cart items or add/remoeve them. There is always more improvements to make, but through my progress on my feature, my collborative efforts, and learning from each live review and implementing the lessons learned, I believe that I should get an overall grade of <b>9.3 out of 10 on this final</b>. 
+
+10th Point: <b>(0.4/1)</b>
+- I reviewed other's projects at N@tM.
+- I talked about my individual strengths and weaknesses over the 12 weeks.
+- I had a retrspective on my project next steps plans and burn downs based on strengths and weaknesses.
+- Included a summary of honest self grade.
