@@ -20,6 +20,7 @@ hide: true
 
 <h3 style="font-family: Courier New"> <strong>Switch tabs and come back for a surprise!</strong></h3>
 
+<span>
 <table>
   <tr>
     <th>Github Pages Hacks</th>
@@ -39,6 +40,7 @@ hide: true
     <a href="{{site.baseurl}}/calculator/"> <button style="background-color: #F88379; color: white; padding: 10px"> Calculator </button> </a> </td>
   </tr>
 </table>
+
 
 <!-- Liquid:  statements -->
 
