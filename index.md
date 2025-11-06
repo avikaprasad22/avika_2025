@@ -6,7 +6,7 @@ image: /images/mario_animation.png
 hide: true
 ---
 <center>
-<h3 style="font-family: Courier New"> <strong> Hi I'm Avika, and my journey in computer science princples journey starts here. </strong> </h3>
+<h3 style="font-family: Courier New"> <strong> Hi I'm Avika Prasad, and my journey in computer science princples journey starts here. </strong> </h3>
 <span class="container">
 <img src="{{site.baseurl}}/images/comp.gif" width="300" height="300"/>
 <img src="{{site.baseurl}}/images/duck.gif" width="250" height="250"/>
